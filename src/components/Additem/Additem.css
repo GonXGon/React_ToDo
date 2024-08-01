@@ -1,0 +1,44 @@
+.activeItem-container{
+    padding: 1rem;
+}
+
+.activeList {
+    list-style-type: none;
+    padding: 0;
+}
+.activeList li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    gap: 1rem;
+}
+.checkbox-input{
+    height: 25px;
+    width: 25px;
+}
+.detail-container{
+    display: flex;
+    flex-direction: column;
+}
+.item-container{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+    width: 100%;
+}
+.item-input{
+    box-sizing: border-box;
+    height: 39px;
+    width: 426px;
+    border: 2px solid #000000;
+}
+
+.button-container{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+.button-container button{
+    width: 100%;
+}

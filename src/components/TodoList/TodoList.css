@@ -1,0 +1,55 @@
+.todolist-container{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+.todolist-card{
+    border: 2px solid rgb(0, 0, 0);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color: beige;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+.todolist-heading{
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.todolist-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.todolist-form input{
+    box-sizing: border-box;
+    height: 39px;
+    width: 426px;
+    border: 2px solid #000000;
+}
+.todolist-form button{
+    box-sizing: border-box;
+    height: 39px;
+    width: 426px;
+    border: 2px solid #000000;
+    cursor: pointer;
+}
+
+.statesButton-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+.statesButton-container button{
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 39px;
+    width: 100%;
+}
